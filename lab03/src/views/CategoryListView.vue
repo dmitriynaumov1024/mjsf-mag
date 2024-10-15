@@ -1,8 +1,8 @@
 <script setup lang="ts">
-
-import {onMounted, ref, reactive} from "vue";
-import type {Category} from "@/types";
+import { onMounted, ref, reactive } from "vue";
+import type { Category } from "@/types";
 import serviceProvider from "@/services";
+
 import type { Loader } from "@/components/types.ts"
 import CategoryWrapper from "@/components/category/CategoryWrapper.vue";
 
