@@ -3,7 +3,7 @@ import {CategoriesService} from "@/services/categories.service";
 import httpClient from "@/utils/http-client";
 
 
-class ServiceProvider {
+export class ServiceProvider {
     /**
      * Service instances
      */

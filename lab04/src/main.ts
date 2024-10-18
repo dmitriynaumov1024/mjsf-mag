@@ -19,4 +19,11 @@ app.use(i18n, {
     }
 });
 
+import {serviceProvider} from "@/plugins/service-provider"
+app.use(serviceProvider)
+
+document.addEventListener("click", (e)=> {
+    console.log(e)
+})
+
 app.mount('#app')

@@ -1,12 +1,14 @@
 <script setup lang="ts">
-
 import {onMounted, ref} from "vue";
 import type {Category} from "@/types";
-import serviceProvider from "@/services";
 import CategoryWrapper from "@/components/category/CategoryWrapper.vue";
 
 const categories = ref<Category[]>([]);
 const loading = ref<boolean>(false);
+
+import { inject } from "vue"
+let serviceProvider = inject("serviceProvider")
+
 const fetchCategories = async () => {
     try {
         loading.value = true;

@@ -23,7 +23,15 @@
                                 activeClass="font-semibold text-black dark:text-white bg-gray-100"
                                 to="/"
                                     class="block py-2 px-3 rounded hover:bg-gray-100"
-                                    aria-current="page">Home
+                                    aria-current="page">Home (Comp.API)
+                        </RouterLink>
+                    </li>
+                    <li>
+                        <RouterLink
+                                activeClass="font-semibold text-black dark:text-white bg-gray-100"
+                                to="/home2"
+                                    class="block py-2 px-3 rounded hover:bg-gray-100"
+                                    aria-current="page">Home (Options API)
                         </RouterLink>
                     </li>
                     <li>
@@ -34,6 +42,15 @@
                                 to="/about"
                               >
                             About
+                        </RouterLink>
+                    </li>
+                    <li>
+                        <RouterLink
+                                activeClass="font-medium text-black dark:text-white bg-gray-100"
+                                class="block py-2 px-3 rounded hover:bg-gray-100"
+                                to="/tooltip-demo"
+                              >
+                            Tooltip Demo
                         </RouterLink>
                     </li>
                 </ul>
